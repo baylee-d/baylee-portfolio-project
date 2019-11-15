@@ -1,0 +1,218 @@
+/* Variables */
+/* Animations */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.FadeIn {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-family: "Open Sans", sans-serif;
+  color: #2e2e2e;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 4em;
+}
+
+p {
+  margin: 0;
+}
+
+#SocialHeader {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  font-size: 25px;
+  padding: 10px;
+  text-align: right;
+  z-index: 1;
+}
+#SocialHeader svg {
+  padding: 0 15px;
+}
+#SocialHeader a {
+  color: #2e2e2e;
+  transition: color;
+  text-decoration: none;
+}
+#SocialHeader a:hover {
+  color: #b20130;
+}
+
+#IconContainer {
+  padding: 0 50px;
+}
+
+#HomeSection {
+  height: 100vh;
+  display: flex;
+}
+#HomeSection h1 {
+  margin: auto 10px;
+  width: 100%;
+}
+
+.Highlighter {
+  color: #b20130;
+}
+
+.TxtType {
+  border-right: 4px solid #93999f;
+}
+
+#AboutSection {
+  display: flex;
+}
+
+.Section {
+  padding: 100px;
+  display: flex;
+  font-weight: 300;
+  flex-direction: column;
+}
+.Section .InnerContent {
+  margin-bottom: 0;
+}
+
+#SectionRight {
+  background-color: #151515;
+  color: #f2f2f2;
+}
+#SectionRight p {
+  color: #93999f;
+}
+
+#ContactSection {
+  background-color: #2e2e2e;
+  color: #fff;
+  font-size: 40px;
+}
+#ContactSection p {
+  padding: 100px;
+}
+#ContactSection a {
+  color: #9ff781;
+}
+
+#Footer {
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+}
+#Footer a {
+  color: #2e2e2e;
+}
+
+/* Responsive font sizes */
+@media only screen and (max-width: 1042px) {
+  h1 {
+    font-size: 3.5em;
+  }
+}
+@media only screen and (min-width: 841px) {
+  .Section {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 840px) {
+  h1 {
+    font-size: 2.5em;
+  }
+
+  #HomeSection {
+    height: 85vh;
+  }
+
+  #SocialHeader,
+#HomeSection h1 {
+    text-align: center;
+  }
+
+  #AboutSection {
+    background-color: #151515;
+    color: #f2f2f2;
+  }
+  #AboutSection p {
+    color: #93999f;
+    font-size: 15px;
+    text-align: left;
+  }
+
+  #AboutSection,
+.Section {
+    display: block;
+    text-align: center;
+  }
+
+  .Section {
+    padding: 100px 50px;
+  }
+
+  #SectionRight {
+    padding-top: 0;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #ContactSection > p {
+    font-size: 0.8em;
+    text-align: center;
+    padding: 50px;
+  }
+}
+@media only screen and (max-width: 608px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+@media only screen and (max-width: 570px) {
+  #ContactSection > p {
+    font-size: 0.6em;
+  }
+
+  .Section {
+    padding: 50px;
+  }
+}
+@media only screen and (max-width: 490px) {
+  h1 {
+    font-size: 1.5em;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */
