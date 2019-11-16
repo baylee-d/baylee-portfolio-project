@@ -11,70 +11,72 @@
         <script defer src='fontawesome-free-5.11.2-web/js/all.js'></script>
     </head>
     <body>
-        <section id='SocialHeader'>
+        <header id='SocialHeader'>
             <div id='IconContainer'>
-                <a href='https://github.com/baylee-d' target='_blank' rel='noopener noreferrer'>
+                <a href='https://github.com/baylee-d' target='_blank' rel='noopener noreferrer' aria-label='Github link'>
                     <i class='fab fa-github FadeIn' aria-hidden='true'></i>
                 </a>
-                <a href='https://linkedin.com/in/baylee-swenson' target='_blank' rel='noopener noreferrer'>
+                <a href='https://linkedin.com/in/baylee-swenson' target='_blank' rel='noopener noreferrer' aria-label='LinkedIn link'>
                     <i class='fab fa-linkedin-in FadeIn' aria-hidden='true'></i>
                 </a>
-                <a href='mailto:baylee.d.swenson@gmail.com' target='_blank' rel='noopener noreferrer'>
+                <a href='mailto:baylee.d.swenson@gmail.com' target='_blank' rel='noopener noreferrer' aria-label='Email me'>
                     <i class='far fa-envelope FadeIn' aria-hidden='true'></i>
                 </a>
             </div>
-        </section>
-        <section id='HomeSection'>
-            <h1 class='FadeIn'>
-                Hi, I'm <span class='Highlighter'>Baylee</span>, a<br>
-                Front End Developer<br><br>
-                <div id='Tagline' aria-label='I like accessibility and keeping the internet open'>
-                    I like 
-                    <span class='TxtType' data-wait=3000 data-words='["keeping the internet open", "accessibility"]' aria-hidden='true'></span>
+        </header>
+        <main>
+            <section id='HomeSection'>
+                <h1 class='FadeIn'>
+                    Hi, I'm <span class='Highlighter'>Baylee</span>, a<br>
+                    Front End Developer<br><br>
+                    <div id='Tagline' aria-label='I like accessibility and keeping the internet open'>
+                        I like 
+                        <span class='TxtType' data-wait=3000 data-words='["keeping the internet open", "accessibility"]' aria-hidden='true'></span>
+                    </div>
+                </h1>
+            </section>
+            <section id='AboutSection'>
+                <div class='Section'>
+                    <span class='InnerContent FadeIn'>
+                        <h2>
+                            About me
+                        </h2>
+                        <p>
+                            Hello! I'm a front end developer with professional experience building open source single page applications, currently based in Charlottesville, Virginia.
+                            I'm passionate about writing accessible, quality code, following a11y practices and coding standards to ensure reusability and a user experience everyone can enjoy.
+                        </p><br>
+                        <p>
+                            During the day I work on open source code bases for single page applications using modern languages and technologies.
+                            I'm passionate about delivering a final product that is accessible and functional.
+                        </p>
+                    </span>
                 </div>
-            </h1>
-        </section>
-        <section id='AboutSection'>
-            <div class='Section'>
-                <span class='InnerContent FadeIn'>
-                    <h2>
-                        About me
-                    </h2>
-                    <p>
-                        Hello! I'm a front end developer with professional experience building open source single page applications, currently based in Charlottesville, Virginia.
-                        I'm passionate about writing accessible, quality code, following a11y practices and coding standards to ensure reusability and a user experience everyone can enjoy.
-                    </p><br>
-                    <p>
-                        During the day I work on open source code bases for single page applications using modern languages and technologies.
-                        I'm passionate about delivering a final product that is accessible and functional.
-                    </p>
-                </span>
-            </div>
-            <div id='SectionRight' class='Section'>
-                <span class='InnerContent FadeIn'>
-                    <h2>
-                        <i class='fas fa-terminal' aria-hidden='true'></i> Development
-                    </h2>
-                    <p>
-                        Ember.js, TypeScript, JavaScript, jQuery, HTML5, CSS3, Bootstrap, Google Analytics, Mirage, Git and Github
-                    </p>
-                    <h2>
-                        <i class='fas fa-palette' aria-hidden='true'></i> Design
-                    </h2>
-                    <p>
-                        Sketch, Balsamiq, Adobe Photoshop, Adobe XD
-                    </p>
-                </span>
-            </div>
-        </section>
-        <section id='ContactSection'>
-            <p class='FadeIn'>
-                Shoot me an <a href='mailto:baylee.d.swenson@gmail.com' aria-label='mail to baylee.d.swenson@gmail.com' target='_blank' rel='noopener noreferrer'>email</a> to say hi
-                or check me out on <a href='https://github.com/baylee-d' aria-label='baylee-d on github' target='_blank' rel='noopener noreferrer'>github</a> & <a href='https://linkedin.com/in/baylee-swenson' aria-label='baylee swenson on linkedin' target='_blank' rel='noopener noreferrer'>linkedin</a>.
-            </p>
-        </section>
-        <section id='Footer' class='FadeIn'>
+                <div id='SectionRight' class='Section'>
+                    <span class='InnerContent FadeIn'>
+                        <h2>
+                            <i class='fas fa-terminal' aria-hidden='true'></i> Development
+                        </h2>
+                        <p>
+                            Ember.js, TypeScript, JavaScript, jQuery, HTML5, CSS3, Bootstrap, Google Analytics, Mirage, Git and Github
+                        </p>
+                        <h2>
+                            <i class='fas fa-palette' aria-hidden='true'></i> Design
+                        </h2>
+                        <p>
+                            Sketch, Balsamiq, Adobe Photoshop, Adobe XD
+                        </p>
+                    </span>
+                </div>
+            </section>
+            <section id='ContactSection'>
+                <p class='FadeIn'>
+                    Shoot me an <a href='mailto:baylee.d.swenson@gmail.com' aria-label='mail to baylee.d.swenson@gmail.com' target='_blank' rel='noopener noreferrer'>email</a> to say hi
+                    or check me out on <a href='https://github.com/baylee-d' aria-label='baylee-d on github' target='_blank' rel='noopener noreferrer'>github</a> & <a href='https://linkedin.com/in/baylee-swenson' aria-label='baylee swenson on linkedin' target='_blank' rel='noopener noreferrer'>linkedin</a>.
+                </p>
+            </section>
+        </main>
+        <footer id='Footer' class='FadeIn'>
             <a href='https://github.com/baylee-d/baylee-portfolio-project' target='_blank' rel='noopener noreferrer'>Check this project out on github</a>
-        </section>
+        </footer>
     </body>
 </html>
